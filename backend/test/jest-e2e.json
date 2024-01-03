@@ -1,0 +1,17 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/shared-kernel/(.*)": "<rootDir>/../libs/shared-kernel/src/$1",
+    "@app/shared-kernel": "<rootDir>/../libs/shared-kernel/src"
+  }
+}
