@@ -1,2 +1,2 @@
-export * from './infrastructure/database';
+export * from './infrastructure/databases';
 export * from './application/constants';
